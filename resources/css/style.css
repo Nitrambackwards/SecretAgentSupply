@@ -19,6 +19,7 @@ body {
   display: flex;
 }
 
+/* Header section rules */
 header {
   background-color: black;
   color: white;
@@ -36,11 +37,35 @@ header p {
   margin: 0.66rem 0;
 }
 
+/* Call to Action section rules */
 .call-to-action {
   height: 25rem;
   background-image: url(../images/moto.jpeg);
+  background-size: cover;
+}
+.newItem {
+  width: 25rem;
+  position: absolute;
+  top: 9rem;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.newItem h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+.newItem h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
 }
 
+/* Nav section rules */
 nav {
   background-color: firebrick;
   color: white;
@@ -52,8 +77,60 @@ nav span {
   margin: 0.75rem 0;
 }
 
+/* Product section rules */
+.products .container {
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.product {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product .image {
+  height: 9rem;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+.product img {
+  max-width: 8rem;
+}
+.product p {
+  padding: 0.5rem 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Details section rules */
+.details .container {
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.location {
+  width: 35%;
+}
+.hours {
+  width: 35%;
+}
+.name {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer section rules */
 footer {
   background-color: black;
   color: white;
   height: 5rem;
+}
+footer .container {
+  align-items: center;
 }
