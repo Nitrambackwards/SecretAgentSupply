@@ -6,3 +6,33 @@ body {
   margin: 0;
   font-family: helvetica;
 }
+
+/* Generic rules used by all major sections */
+.section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* Site container rules */
+.container {
+  width: 960px;
+  display: flex;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+header .container {
+  align-items: center;
+}
+
+.call-to-action {
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
