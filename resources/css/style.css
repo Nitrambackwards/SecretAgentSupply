@@ -157,3 +157,66 @@ footer .container {
     width: 47%;
   }
 }
+
+/* Mobile Device Media Query */
+@media only screen and (max-width: 470px) {
+  .call-to-action {
+    height: 15rem;
+  }
+  /* Call to action */
+  .newItem {
+    width: 100%;
+    position: absolute;
+    top: 10rem;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  .newItem h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+  .newItem h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  /* Products */
+  .product.watch {
+    display: none;
+  }
+  .product {
+    width: 90%;
+  }
+  .products .container {
+    justify-content: center;
+  }
+
+  /* Details */
+  .details .container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+  .location {
+    width: 90%;
+  }
+  .hours {
+    width: 90%;
+    padding-top: 0.5rem;
+  }
+  .name {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+  }
+
+  /* Footer */
+  footer .container {
+    justify-content: center;
+  }
+}
